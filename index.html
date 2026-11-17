@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Prajakta Suryawanshi, a Computer Science postgraduate based in Pune who works with Python and SQL.">
+
+    <title>Prajakta Suryawanshi | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ANIMATED BACKGROUND (decoration only) -->
+    <div class="bg" aria-hidden="true">
+        <i class="orb o1"></i>
+        <i class="orb o2"></i>
+        <i class="orb o3"></i>
+        <span class="token" style="--x:6%;  --d:26s; --delay:-4s;  --s:15px">def</span>
+        <span class="token" style="--x:16%; --d:32s; --delay:-18s; --s:13px">SELECT</span>
+        <span class="token" style="--x:27%; --d:24s; --delay:-9s;  --s:18px">{ }</span>
+        <span class="token" style="--x:38%; --d:34s; --delay:-26s; --s:14px">print()</span>
+        <span class="token" style="--x:49%; --d:28s; --delay:-12s; --s:13px">WHERE</span>
+        <span class="token" style="--x:58%; --d:30s; --delay:-2s;  --s:17px">[ ]</span>
+        <span class="token" style="--x:68%; --d:25s; --delay:-20s; --s:14px">for</span>
+        <span class="token" style="--x:77%; --d:33s; --delay:-7s;  --s:13px">COUNT()</span>
+        <span class="token" style="--x:86%; --d:27s; --delay:-15s; --s:16px">import</span>
+        <span class="token" style="--x:94%; --d:31s; --delay:-23s; --s:14px">JOIN</span>
+    </div>
+
+    <!-- TOP BAR -->
+    <header class="topbar" id="topbar">
+
+        <a href="#home" class="logo">PS<span>.</span></a>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/prajakta-r-suryawanshi/"
+               target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+
+            <a href="https://github.com/prajaktasuryawanshi-s"
+               target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        </div>
+
+        <!-- THREE LINE MENU -->
+        <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- MENU -->
+    <nav class="menu" id="menu" aria-label="Main menu">
+
+        <button class="close-button" id="closeButton" aria-label="Close menu">×</button>
+
+        <p class="menu-title">EXPLORE</p>
+
+        <a href="#home">Home <span>01</span></a>
+        <a href="#about">About <span>02</span></a>
+        <a href="#skills">Skills <span>03</span></a>
+        <a href="#projects">Projects <span>04</span></a>
+        <a href="#contact">Contact <span>05</span></a>
+
+        <div class="menu-social">
+            <a href="https://www.linkedin.com/in/prajakta-r-suryawanshi/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/prajaktasuryawanshi-s" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+
+
+    <main>
+
+    <!-- HOME SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="welcome"><i class="live-dot"></i> WELCOME TO MY PORTFOLIO</p>
+
+            <p class="hello">Hello, I'm</p>
+
+            <h1 id="name" aria-label="Prajakta Suryawanshi">
+                <span class="first">Prajakta</span>
+                <span class="last">Suryawanshi.</span>
+            </h1>
+
+            <h2 class="role" aria-label="Python and SQL developer, fresher">
+                <span id="typed">Python developer</span><span class="caret" aria-hidden="true"></span>
+            </h2>
+
+            <p class="description">
+                I am a Computer Science postgraduate based in Pune. I enjoy writing
+                Python programs and working with SQL databases, and I learn best
+                by building small, practical projects.
+            </p>
+
+            <div class="buttons">
+
+                <a href="Prajakta_Suryawanshi_Resume.pdf" download class="btn primary">
+                    Download CV ↓
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact Me ↗
+                </a>
+
+            </div>
+
+            <a class="scroll-text" href="#about">SCROLL TO EXPLORE <span class="arrow">↓</span></a>
+
+        </div>
+
+
+        <!-- PROFILE PHOTO -->
+        <div class="photo-container" id="photoBox">
+
+            <div class="photo-glow"></div>
+            <div class="photo-border"></div>
+
+            <div class="photo-frame">
+                <span class="initials" aria-hidden="true">PS</span>
+                <img src="profile.jpg" alt="Prajakta Suryawanshi" id="profileImg">
+            </div>
+
+            <span class="badge b1">Python</span>
+            <span class="badge b2">SQL</span>
+
+            
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+
+        <div class="section-heading reveal">
+            <p class="subtitle">GET TO KNOW MORE</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+                <p>
+                    Hi, I'm Prajakta Suryawanshi, based in Pune. I completed my
+                    Master's in Computer Science in 2025 and am looking forward
+                    to starting my career in the IT industry.
+                </p>
+                <p>
+                    I enjoy learning new technologies and applying my knowledge
+                    through practical projects. I have developed a Hotel Room
+                    Booking System using Python and created a Power BI dashboard
+                    using sample data. I also have working knowledge of SQL.
+                </p>
+                <p>
+                    I am a quick learner, enjoy solving problems, and work well
+                    in a team. I am looking for an opportunity where I can improve
+                    my skills, gain practical experience, contribute to the team,
+                    and grow professionally.
+                </p>
+                <div class="cert">
+                    <b>Certification</b>
+                    <span>Digital Marketing Certificate</span>
+                </div>
+            </div>
+
+            <ol class="timeline">
+                <li class="reveal">
+                    <small>Completed 2025</small>
+                    <h3>Postgraduate, Computer Science</h3>
+                    <p>Dr. Babasaheb Ambedkar Marathwada University, Aurangabad</p>
+                    <em>79%</em>
+                </li>
+                <li class="reveal">
+                    <small>Completed 2023</small>
+                    <h3>Bachelor's, Computer Science</h3>
+                    <p>Dr. Babasaheb Ambedkar Marathwada University, Aurangabad</p>
+                    <em>73.83%</em>
+                </li>
+                <li class="reveal">
+                    <small>Higher Secondary</small>
+                    <h3>HSC (XII)</h3>
+                    <p>A. G. R. Garud Secondary and Junior College</p>
+                    <em>61.85%</em>
+                </li>
+                <li class="reveal">
+                    <small>Secondary</small>
+                    <h3>SSC (X)</h3>
+                    <p>A. G. R. Garud Secondary and Junior College</p>
+                    <em>74%</em>
+                </li>
+            </ol>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills" id="skills">
+
+        <div class="section-heading reveal">
+            <p class="subtitle">WHAT I WORK WITH</p>
+            <h2>My <span>Skills</span></h2>
+            <p>The languages and tools I have used in my projects.</p>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card reveal">
+                <b>Py</b>
+                <div>
+                    <h3>Python</h3>
+                    <p>Functions, loops, lists, dictionaries, classes and file handling</p>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <b>SQL</b>
+                <div>
+                    <h3>SQL</h3>
+                    <p>Writing queries to read and summarise data</p>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <b>My</b>
+                <div>
+                    <h3>MySQL</h3>
+                    <p>Relational database for storing project data</p>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <b>C</b>
+                <div>
+                    <h3>C Programming</h3>
+                    <p>Programming fundamentals</p>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <b>Ex</b>
+                <div>
+                    <h3>MS Excel</h3>
+                    <p>Data preparation and checking</p>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <b>BI</b>
+                <div>
+                    <h3>Power BI (basic)</h3>
+                    <p>Dashboard built from a sample dataset</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects" id="projects">
+
+        <div class="section-heading reveal">
+            <p class="subtitle">WHAT I'VE BEEN BUILDING</p>
+            <h2>Featured <span>Projects</span></h2>
+            <p>Two projects from my learning journey.</p>
+        </div>
+
+        <div class="project-container">
+
+            <article class="project-card reveal">
+
+                <div class="project-image hotel">
+                    <span>⌂</span>
+                </div>
+
+                <div class="project-info">
+                    <small>01 / PYTHON</small>
+
+                    <h3>Hotel Room Booking System</h3>
+
+                    <p>
+                        A console application that manages customers, room bookings
+                        and billing. It uses functions, conditions, loops, lists,
+                        dictionaries, classes and file handling to store and read
+                        booking data.
+                    </p>
+
+                    <a href="https://github.com/prajaktasuryawanshi-s/Hotel-Room-Booking-System"
+                       target="_blank" rel="noopener">
+                        View on GitHub ↗
+                    </a>
+                </div>
+
+            </article>
+
+
+            <article class="project-card reveal">
+
+                <div class="project-image dashboard">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="project-info">
+                    <small>02 / POWER BI</small>
+
+                    <h3>IT Project Delivery &amp; Bug Tracking Dashboard</h3>
+
+                    <p>
+                        A dashboard on a sample dataset of 1,500 IT tickets, with KPI
+                        cards, charts and filters. I cleaned the data in Power Query
+                        and wrote DAX measures such as On-time Delivery % and Average
+                        Resolution Days.
+                    </p>
+
+                    <a href="https://github.com/prajaktasuryawanshi-s/IT-Project-Delivery-Dashboard"
+                       target="_blank" rel="noopener">
+                        View on GitHub ↗
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+
+        <div class="reveal">
+            <p class="subtitle">LET'S CONNECT</p>
+
+            <h2>
+                Have an opportunity<br>
+                or an idea? <span>Let's talk.</span>
+            </h2>
+
+            <p class="contact-description">
+                I would be happy to connect, learn, and explore new opportunities.
+            </p>
+
+            <a class="email" href="mailto:prajktasuryawanshi25@gmail.com">
+                prajktasuryawanshi25@gmail.com ↗
+            </a>
+
+            <p class="phone">
+                Phone:
+                <a href="tel:+919226042399">+91 92260 42399</a>
+            </p>
+
+            <p class="phone">Pune, Maharashtra</p>
+
+            <div class="contact-social">
+                <a href="https://www.linkedin.com/in/prajakta-r-suryawanshi/" target="_blank" rel="noopener">
+                    LinkedIn ↗
+                </a>
+
+                <a href="https://github.com/prajaktasuryawanshi-s" target="_blank" rel="noopener">
+                    GitHub ↗
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 Prajakta Suryawanshi
+            <span>Made with curiosity.</span>
+        </footer>
+
+    </section>
+
+    </main>
+
+
+    <script>
+    (function () {
+
+        var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        /* ---------- MENU ---------- */
+        var menu = document.getElementById("menu");
+        var menuButton = document.getElementById("menuButton");
+        var closeButton = document.getElementById("closeButton");
+        var overlay = document.getElementById("overlay");
+
+        function openMenu() {
+            menu.classList.add("active");
+            overlay.classList.add("active");
+            menuButton.classList.add("active");
+            menuButton.setAttribute("aria-expanded", "true");
+        }
+        function closeMenu() {
+            menu.classList.remove("active");
+            overlay.classList.remove("active");
+            menuButton.classList.remove("active");
+            menuButton.setAttribute("aria-expanded", "false");
+        }
+        menuButton.addEventListener("click", openMenu);
+        closeButton.addEventListener("click", closeMenu);
+        overlay.addEventListener("click", closeMenu);
+        document.querySelectorAll('.menu a[href^="#"]').forEach(function (link) {
+            link.addEventListener("click", closeMenu);
+        });
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") closeMenu();
+        });
+
+        /* ---------- TOP BAR BACKGROUND AFTER SCROLL ---------- */
+        var bar = document.getElementById("topbar");
+        function onScroll() { bar.classList.toggle("solid", window.scrollY > 30); }
+        window.addEventListener("scroll", onScroll, { passive: true });
+        onScroll();
+
+        /* ---------- NAME: letters rise in one by one ---------- */
+        var count = 0;
+        document.querySelectorAll("#name span").forEach(function (word) {
+            var text = word.textContent.trim();
+            word.textContent = "";
+            word.setAttribute("aria-hidden", "true");
+            text.split("").forEach(function (ch) {
+                var s = document.createElement("span");
+                s.className = "ch";
+                s.textContent = ch;
+                s.style.setProperty("--i", count++);
+                word.appendChild(s);
+            });
+        });
+        document.getElementById("name").classList.add("ready");
+
+        /* ---------- ROLE TYPEWRITER ---------- */
+        var roles = ["Python developer", "SQL and MySQL learner", "Computer Science postgraduate", "Open to my first role"];
+        var out = document.getElementById("typed");
+        if (reduce) {
+            out.textContent = roles[0];
+        } else {
+            var r = 0, c = 0, del = false;
+            (function tick() {
+                var word = roles[r], wait = del ? 35 : 75;
+                out.textContent = word.slice(0, c);
+                if (!del && c === word.length) { del = true; wait = 1500; }
+                else if (del && c === 0) { del = false; r = (r + 1) % roles.length; wait = 400; }
+                else { c += del ? -1 : 1; }
+                setTimeout(tick, wait);
+            })();
+        }
+
+        /* ---------- PHOTO FALLBACK ---------- */
+        var img = document.getElementById("profileImg");
+        var box = document.getElementById("photoBox");
+        function noPhoto() { box.classList.add("no-photo"); }
+        img.addEventListener("error", noPhoto);
+        if (img.complete && img.naturalWidth === 0) noPhoto();
+
+        /* ---------- REVEAL ON SCROLL ---------- */
+        var items = document.querySelectorAll(".reveal");
+        if ("IntersectionObserver" in window && !reduce) {
+            document.documentElement.classList.add("anim");
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (en) {
+                    if (en.isIntersecting) {
+                        en.target.classList.add("in");
+                        io.unobserve(en.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            items.forEach(function (el, i) {
+                el.style.transitionDelay = ((i % 3) * 90) + "ms";
+                io.observe(el);
+            });
+        }
+
+        /* ---------- ACTIVE MENU LINK ---------- */
+        var links = {};
+        document.querySelectorAll(".menu > a").forEach(function (a) {
+            links[a.getAttribute("href").slice(1)] = a;
+        });
+        if ("IntersectionObserver" in window) {
+            var so = new IntersectionObserver(function (entries) {
+                entries.forEach(function (en) {
+                    if (en.isIntersecting) {
+                        Object.keys(links).forEach(function (k) {
+                            links[k].classList.toggle("current", k === en.target.id);
+                        });
+                    }
+                });
+            }, { rootMargin: "-45% 0px -50% 0px" });
+            Object.keys(links).forEach(function (k) {
+                var el = document.getElementById(k);
+                if (el) so.observe(el);
+            });
+        }
+
+    })();
+    </script>
+
+</body>
+</html>
